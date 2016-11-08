@@ -62,7 +62,8 @@
         <artifactId>spring-security-web</artifactId>
         <version>4.2.0.RC1</version>
     </dependency>
-</dependencies><repositories>
+</dependencies>
+<repositories>
     <repository>
         <id>spring-milestones</id>
         <name>Spring Milestones</name>
