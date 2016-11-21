@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class BolaoController {
 	
-	@RequestMapping("/bolao/novo")
-	public String novo(){
-		return "index.html";
+	@RequestMapping(value="/index")
+	public String fazeraposta(){
+		return "/fazeraposta";
 	}
 
 }
